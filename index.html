@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An approachable, hands-on guide to GPU kernels, Muse mixture-of-experts, and SGLang serving. Twelve chapters, interactive labs, and worked exercises.">
+  <meta name="theme-color" content="#172b29">
+  <title>From Tensor to Token — A practical field guide</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <button id="menu-backdrop" class="menu-backdrop" aria-label="Close navigation" hidden></button>
+  <aside class="sidebar" id="sidebar" aria-label="Course navigation">
+    <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">▦</span><span>Tensor <i>to</i> Token<small>THE PRACTICAL FIELD GUIDE</small></span></a>
+    <button id="close-menu" class="close-menu" aria-label="Close navigation">×</button>
+    <label class="search-label" for="search">Find a concept</label>
+    <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Shapes, KV cache, fusion…" autocomplete="off" aria-controls="search-results"></div>
+    <div id="search-results" class="search-results" hidden></div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-bottom"><div class="progress-label"><span>Your progress</span><strong id="progress-label">0 / 12</strong></div><progress id="course-progress" max="12" value="0" aria-label="Completed chapters"></progress><p id="storage-note">Saved in this browser. No account needed.</p><button id="reset-progress" class="text-button">Reset progress</button><div id="reset-confirm" hidden><p>Clear chapter and quiz progress?</p><button id="confirm-reset">Reset</button> <button id="cancel-reset">Keep it</button></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><button id="menu-toggle" class="menu-toggle" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button><div id="breadcrumb">THE FIELD GUIDE <span>/</span> START HERE</div><a class="top-link" href="#labs">Explore the labs <span aria-hidden="true">↗</span></a></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer"><span>Built for understanding. Then for speed.</span><span>Edition 01 · October 2026 <a href="#sources">Sources & notes ↗</a></span></footer>
+  </div>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <noscript><div class="noscript">This interactive guide needs JavaScript enabled. All calculations run in your browser; no GPU or account is required.</div></noscript>
+</body>
+</html>
