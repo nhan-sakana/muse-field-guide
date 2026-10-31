@@ -6,10 +6,11 @@ A beginner-friendly field guide to GPU kernels, Muse mixture-of-experts, and mod
 
 https://nhan-sakana.github.io/muse-field-guide/
 
-- 12 chapters with worked examples and exercises
+- 12 plain-language first-reading chapters, with analogies and small worked examples
+- Optional “Go deeper” sections retaining the equations, implementation details, and code
 - 6 interactive calculators and demonstrations
 - 24 knowledge-check questions
-- 74 searchable glossary terms
+- 82 searchable glossary terms
 - Browser-local learning progress
 - A complete print/PDF reading edition
 
